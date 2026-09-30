@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="container">
     <h1>ขึ้นแล้ว</h1>
     <h2>Arnon Meesri</h2>
   </div>
