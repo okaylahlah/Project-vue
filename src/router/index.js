@@ -20,6 +20,43 @@ const routes = [
 
     component: () => import('../views/Contact.vue')
   },
+  {
+    path: '/user',
+    name: 'user',
+
+    component: () => import('../views/User.vue')
+  },
+  {
+    path: '/apigold',
+    name: 'apigold',
+
+    component: () => import('../views/api_gold.vue')
+  },
+  {
+    path: '/grade',
+    name: 'grade',
+
+    component: () => import('../views/Grade.vue')
+  },
+    {
+    path: '/product',
+    name: 'product',
+
+    component: () => import('../views/Product_api.vue')
+  },
+      {
+    path: '/product',
+    name: 'product',
+
+    component: () => import('../views/Product_api.vue')
+  },
+        {
+    path: '/product_t',
+    name: 'product_t',
+
+    component: () => import('../views/Product_tabel.vue')
+  },
+
 ]
 
 const router = createRouter({

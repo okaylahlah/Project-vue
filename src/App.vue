@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg bg-primary-subtle">
   <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Menu</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,9 +21,11 @@
             Dropdown link
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/apigold">gold</a></li>
+            <li><a class="dropdown-item" href="/grade">Grade</a></li>
+            <li><a class="dropdown-item" href="/product">Product</a></li>
+            <li><a class="dropdown-item" href="/product_t">Product_table</a></li>
+            <li><a class="dropdown-item" href="/user">User</a></li>
           </ul>
         </li>
       </ul>
